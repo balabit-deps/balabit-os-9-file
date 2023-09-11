@@ -12,3 +12,4 @@ local.don-t-include-libs-in-build.patch
 local.mention-posixly-correct-dependent-behaviour-in-usage-message.patch
 local.extra-magic.patch
 local.manpage-seccomp-is-disabled.patch
+CVE-2022-48554.patch

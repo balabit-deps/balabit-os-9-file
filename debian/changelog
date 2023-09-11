@@ -1,3 +1,12 @@
+file (1:5.41-3ubuntu0.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: buffer over-read in file_copystr
+    - debian/patches/CVE-2022-48554.patch: don't use strlcpy to copy the
+      string in src/funcs.c.
+    - CVE-2022-48554
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Mon, 11 Sep 2023 13:59:06 -0400
+
 file (1:5.41-3) unstable; urgency=medium
 
   * Cherry-pick commit to avoid mis-detection of .dbf as executable
